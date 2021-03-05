@@ -39,6 +39,14 @@ When analyzing the run time between the original script and the refactored scrip
 
 ## Summary
 
-### Advantages and disadvantages of refactoring code in general
+### 1. What are the advantages or disadvantages of refactoring code?
+The advantages of having the refactoring code is that it is able to execute the script and calculate the results needed from the worksheet quicker than the orignal script. The use of declaring the variables as arrays is able to run the script efficiently. The following variables were declared below:
 
-### Advantages and disadvantages of the original and refactored VBA script
+    Dim tickerVolumes(12) As Long
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
+
+Although it is able to compute the data from the worksheet faster, creating the code takes a little more time and thinking. For the most part, the original and refactored script has the same code layout. The main differences was using the tickers as an array and the other variables as well.
+
+### 2. How do these pros and cons apply to refactoring the original VBA script?
+The refactored script uses the same logic as the original script. The refactored script is beneficial because it will able to effectively analyze the stocks if Steve were to add thousands of stocks compared to the dozens. The original script will take a significantly longer time compared the the refactored version when calculating thousands of stocks on the worksheet.
