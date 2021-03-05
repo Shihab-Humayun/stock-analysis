@@ -16,6 +16,7 @@ Majority of the stocks in 2017 had a positive return, which are highlighted in g
 ![image](https://user-images.githubusercontent.com/49353083/110181043-edbe1f00-7dd8-11eb-8101-c27ff63f5a49.png)
 
 ### Execution Times
+When analyzing the run time between the original script and the refactored script, we can see a decrease in time needed to compute the data on the refactored script. For the 2017 original script, it took around 0.816 seconds. The 2017 refactored script took around 0.168 seconds to calculate the same data, which is faster by around 0.648 seconds. The similar results are shown for the 2018 original script, which took around 0.828 seconds and 0.160 seconds for the 2018 refactored script. The following images shows the message dialog box of each script executed.
 
 2017 Original Script
 
